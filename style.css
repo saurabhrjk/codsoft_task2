@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.hero {
+    display: flex;
+    padding: 30PX;
+    background-color: #f4f4f4;
+}
+
+.hero-left {
+    flex: 1;
+    padding:40px;
+    padding-top: 70px;
+}
+.hero-left h1{
+    font-size: 45px;
+}
+.hero-left p{
+    font-size: 20px;
+    opacity: 60%;
+}
+
+.hero-right {
+    flex: 1;
+}
+.hero-right img{
+    width:80%;
+}
+
+.profile-photo {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.skills, .projects, .contact {
+    padding: 2rem;
+    background-color: #ffffff;
+}
+
+.skills {
+    display: flex;
+}
+
+.skills-left, .skills-right {
+    flex: 1;
+    padding:40px;
+}
+
+.skills-right{
+    padding-left: 40px;
+}
+.skills-image {
+    max-width: 100%;
+    opacity: 60%;
+}
+
+.project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px; 
+}
+
+.card {
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border: none;
+}
+
+.card-img-top {
+    max-height: 200px;
+    object-fit: cover; 
+}
+
+
+button {
+    border:0px;
+    
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
